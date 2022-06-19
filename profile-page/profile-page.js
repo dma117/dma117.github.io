@@ -1,0 +1,22 @@
+technologies = [
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "Java", 
+    "Kotlin",
+    "C++",
+    "C",
+    "C#",
+    "CUDA",
+    "OpenCV",
+    "Angular", 
+    "Python",
+    "Laravel",
+    "Flutter",
+    "Go",
+    "Xamarin",
+    "ASP.NET",
+    "Fortran",
+    "MongoDB",
+    "PHP"
+]

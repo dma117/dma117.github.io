@@ -1,0 +1,117 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.register-form {
+    background-color: white;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+}
+
+.register-form header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+.register-fields {
+    display: flex;
+    flex-flow: column;
+    margin-top: 30px;
+}
+
+.register-form input,
+.register-form button {
+    height: 45px;
+    width: 100%;
+}
+
+.register-form input{
+    border:none;
+    border-bottom: 1px solid #1890ff;
+    outline: none;
+}
+
+.register-form input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b1b1b1;
+}
+
+.register-fields input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.register-form button {
+    margin-top: 30px;
+    border-radius: 6px;
+    border-width: 0;
+    background-color: #405cf5;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.15;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.register-form button:disabled {
+    cursor: default;
+}
+
+.register-login,
+.register-checkbox {
+    margin-top: 10px;
+}
+
+.register-login {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.register-login a {
+    text-decoration: none;
+    color: 	#008080;
+}
+
+.register-login a:hover {
+    text-decoration: underline;
+    color: #20B2AA;
+}
+
+.register-checkbox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.register-checkbox input {
+    margin: 0;
+    width: 27px;
+}
+
+.register-checkbox label {
+    text-align: center;
+    margin-left: 10px;
+}
+
+form {
+    border-radius: 6px;
+}
+
