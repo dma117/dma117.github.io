@@ -1,1 +1,38 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Styles -->
+    <link rel="stylesheet" href="register-page.css">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <form  class="register-form" action="../profile-page/profile-page.html">
+            <header>Registration</header>
+            <section class="register-fields">
+                <input type="text" id="last_name" name="last_name" placeholder="Фамилия" required>
+                <input type="text" id="first_name" name="first_name" placeholder="Имя" required>
+                <input type="email" id="email" placeholder="Почта" required>
+                <input type="password" id="password" placeholder="Пароль" required>
+            </section>
+            <section class="register-checkbox">
+                <input type="checkbox" id="checkbox" name="checkbox" value="remember_me">
+                <label for="checkbox">Запомнить меня?</label>
+            </section>
+                <button>Register!</button>
+            </section>
+            <section class="register-login">
+                <span>Уже зарегистрирован? <a href="../profile-page/profile-page.html">Войти</a></span>      
+            </section>
+        </form>
+    </div>
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
